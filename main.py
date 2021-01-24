@@ -18,7 +18,7 @@ if __name__ == '__main__':
         f' - accepted: {s.people_accepted} ({(s.acceptance_probability * 100):.2f}%)\n'
         f' - denied: {s.people_denied} ({(s.denial_probability * 100):.2f}%)\n'
         f' - average time in system: {s.avg_time_in_system:.2f} minutes\n'
-        f' - average waiting time : {s.avg_wait_time:.2f} minutes\n'
-        f' - average service time : {s.avg_service_time:.2f} minutes\n'
+        f' - average waiting time: {s.avg_wait_time:.2f} minutes\n'
+        f' - average service time: {s.avg_service_time:.2f} minutes\n'
         f' - people serviced immediately: {s.people_serviced_immediately} ({(s.immediate_service_probability * 100):.2f}%)\n'
     )
